@@ -9,3 +9,12 @@
 FROM restaurants;
 SELECT DISTINCT cuisine FROM restaurants;
 SELECT name,cuisine FROM restaurants WHERE cuisine='Chinese' or cuisine='Italian';
+12.SELECT SUM(duration) as Total_Duration FROM playlist;
+13.SELECT SUM(duration) as Total_Duration FROM playlist;
+14.SELECT artist,AVG(plays)
+FROM playlist
+GROUP BY artist;
+15.SELECT title,MAX(players)
+FROM games;
+SELECT COUNT(language)
+FROM games;
