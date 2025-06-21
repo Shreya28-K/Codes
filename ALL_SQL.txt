@@ -1,0 +1,11 @@
+1. SELECT * FROM shows;
+2. SELECT name,genre  FROM shows;
+3.SELECT DISTINCT stream FROM shows;
+4.SELECT name FROM shows WHERE tomatometer<60;
+5.SELECT name ,genre FROM shows WHERE genre LIKE '%com%';
+6.SELECT name FROM shows WHERE year BETWEEN 1999 AND 2024;
+7.SELECT * FROM shows ORDER BY tomatometer DESC;
+8.SELECT *
+FROM restaurants;
+SELECT DISTINCT cuisine FROM restaurants;
+SELECT name,cuisine FROM restaurants WHERE cuisine='Chinese' or cuisine='Italian';
