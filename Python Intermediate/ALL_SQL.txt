@@ -1,0 +1,26 @@
+1. SELECT * FROM shows;
+2. SELECT name,genre  FROM shows;
+3.SELECT DISTINCT stream FROM shows;
+4.SELECT name FROM shows WHERE tomatometer<60;
+5.SELECT name ,genre FROM shows WHERE genre LIKE '%com%';
+6.SELECT name FROM shows WHERE year BETWEEN 1999 AND 2024;
+7.SELECT * FROM shows ORDER BY tomatometer DESC;
+8.SELECT *
+FROM restaurants;
+SELECT DISTINCT cuisine FROM restaurants;
+SELECT name,cuisine FROM restaurants WHERE cuisine='Chinese' or cuisine='Italian';
+select name  from restaurants
+where neighborhood ='Greenpoint';
+9.SELECT * FROM playlist;
+10.SELECT COUNT(title) as no_of_rows FROM playlist;
+11.SELECT MIN(year) as old_song,MAX(year) as new_song FROM playlist;
+12.SELECT SUM(duration) as Total_Duration FROM playlist;
+13.SELECT SUM(duration) as Total_Duration FROM playlist;
+14.SELECT artist,AVG(plays)
+FROM playlist
+GROUP BY artist;
+15.SELECT title,MAX(players)
+FROM games;
+SELECT COUNT(language)
+FROM games;
+
